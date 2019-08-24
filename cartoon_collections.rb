@@ -37,4 +37,4 @@ def find_the_cheese(snacks)
   ingredients.include? (cheese)
   end
 end
-
+find_the_cheese(potentially_cheesy_items)
