@@ -31,7 +31,8 @@ long_planeteer_calls(planeteer_calls)
 #
 #
 
+actual_cheeses = ["cheddar", "gouda", "camembert"]
 def find_the_cheese(snacks) 
-  actual_cheeses = ["cheddar", "gouda", "camembert"]
+  snacks.find do (actual_cheeses)
 end
 
